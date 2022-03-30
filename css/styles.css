@@ -3,7 +3,7 @@
 
 nav {
     list-style-type: none;
-    margin-top: 10px;
+    margin-top: 2px;
     padding: 0;
     box-sizing: border-box;
     position: sticky;
@@ -19,8 +19,8 @@ header h1 {
     }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     float: left;
 }
 
@@ -50,7 +50,7 @@ li a {
 section {
     float: left;
     width: 55%;
-    height: 300px;
+    height: 250px;
     margin-left: 15px;
     padding-left: 15px;
     font-style: normal;
@@ -60,6 +60,7 @@ section {
     border: 1px solid;
     padding: 30px;
     clear: both;
+    text-align: center;
 }
 
 aside {
@@ -77,6 +78,11 @@ aside {
     padding: 10px;
 }
 
+iframe {
+    border: 5px dotted aquamarine;
+    margin: 10px;
+}
+
 .Story {
     text-align: center;
     float: none;
@@ -89,8 +95,12 @@ aside {
     display: block;
 }
 footer {
-    display: block;
-    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
 }
 
 .fa-brands {
@@ -104,43 +114,35 @@ footer {
 }
 
 .fa-github-square {
-    background: gray;
     color: white;
     }
 
-iframe {
-    border: 5px dotted aquamarine;
-    margin: 10px;
-}
-
 .fa-facebook {
-    background: gray;
     color: white;
 }
 
 .fa-instagram {
-    background-color: gray;
     color: white;
 }
 
 .fa-linkedin {
-    background-color: gray;
     color: white;
 }
 
-input [type=text], select, textarea {
+input[type=text], input[type=email], input[type=number], textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid gray;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
+    background-color: white
 }
 
 input [type=submit] {
-    background-color: aquamarine;
-    color: grey;
+    background-color: gray;
+    color: aquamarine;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;

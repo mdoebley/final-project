@@ -104,8 +104,6 @@ iframe {
 
 footer {
     clear: both;
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color: gray;
     text-align: center;
@@ -197,7 +195,6 @@ input[type=submit] {
     width: 50%;
     height: 400px;
 }
-
 main {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }

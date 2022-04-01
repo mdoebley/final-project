@@ -1,16 +1,8 @@
 
 
-
-nav {
-    list-style-type: none;
-    margin-top: 2px;
-    padding: 0;
-    box-sizing: border-box;
-    position: sticky;
-}
-
 header h1 {
     background-color: gray;
+    color: aquamarine;
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: xx-large;
@@ -90,8 +82,8 @@ iframe {
     height: 50%;
     font-family: 'Roboto Slab', serif;
     font-size: larger;
-    background-color: darksalmon;
-    color: gray;
+    background-color: aquamarine;
+    color: grey;
     display: block;
 }
 footer {
@@ -140,11 +132,54 @@ input[type=text], input[type=email], input[type=number], textarea {
     background-color: white
 }
 
-input [type=submit] {
+input[type=submit] {
     background-color: gray;
     color: aquamarine;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.contact form {
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    float: right;
+    margin-left: 15px;
+    padding-left: 15px;
+    width: 60%;
+    height: 400px;
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+    color: grey;
+    background-color: aquamarine;
+    border: 1px solid;
+    clear: both;
+}
+
+.contact {
+    float: left;
+    width: 40%;
+    height: 150px;
+    margin-left: 15px;
+    padding-left: 15px;
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+    background-color: aquamarine;
+    color: grey;
+    border: 1px solid;
+    padding: 30px;
+    text-align: center;
+    }
+
+.photo {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.students {
+    width: 50%;
+    height: 400px;
 }
